@@ -1,6 +1,7 @@
 {
   "compilerOptions": {
     "outDir": "build/lib",
+    "declaration": true,
     "rootDir": "src",
     "target": "es5",
     "lib": [
@@ -19,7 +20,7 @@
     "moduleResolution": "node",
     "resolveJsonModule": true,
     "jsx": "react",
-    "isolatedModules": true
+    "isolatedModules": false
   },
   "include": [
     "src/**/*"
